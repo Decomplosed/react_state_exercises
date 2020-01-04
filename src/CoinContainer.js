@@ -15,6 +15,7 @@ class CoinContainer extends Component {
       nHeads: 0,
       nTails: 0
     }
+    this.handleClick = this.handleClick.bind(this)
   }
 
   handleClick(e) {
