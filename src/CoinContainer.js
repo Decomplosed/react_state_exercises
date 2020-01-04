@@ -12,7 +12,7 @@ class CoinContainer extends Component {
     super(props)
     this.state = {
       currCoin: null,
-      nFilips: 0,
+      nFlips: 0,
       nHeads: 0,
       nTails: 0
     }
