@@ -21,6 +21,7 @@ class CoinContainer extends Component {
     return (
       <div className='CoinContainer'>
         <h2>Let's flip a coin!</h2>
+        <p>Out of {this.state.nFilips} flips, there have been {this.state.nHeads} heads and {this.state.nTails} tails.</p>
       </div>
     )
   }
