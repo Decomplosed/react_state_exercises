@@ -16,6 +16,14 @@ class CoinContainer extends Component {
       nTails: 0
     }
   }
+
+  render() {
+    return (
+      <div className='CoinContainer'>
+        <h2>Let's flip a coin!</h2>
+      </div>
+    )
+  }
 }
 
 export default CoinContainer
