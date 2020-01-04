@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { choice } from './helpers'
 
 class CoinContainer extends Component {
   static defaultProps = {
