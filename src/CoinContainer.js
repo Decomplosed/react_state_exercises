@@ -22,10 +22,17 @@ class CoinContainer extends Component {
   flipCoin() {
     const newCoin = choice(this.props.coins)
     this.setState((st) => {
-      return {
+      let newState = {
+        ...st,
         currCoin: newCoin,
         nFlips: st.nFlips + 1
       }
+      if (newCoin.side === 'heads') {
+        newState.nHeads += 1
+      } else {
+        newState.nTails += 1
+      }
+      return newState
     })
   }
 
