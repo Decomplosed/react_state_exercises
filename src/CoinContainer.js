@@ -17,6 +17,10 @@ class CoinContainer extends Component {
     }
   }
 
+  handleClick(e) {
+    this.flipCoin()
+  }
+
   render() {
     return (
       <div className='CoinContainer'>
