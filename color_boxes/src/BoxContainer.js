@@ -9,6 +9,12 @@ class BoxContainer extends Component {
     const boxes = Array.from({ length: this.props.numBoxes }).map(() => (
       <Box />
     ))
+
+    return (
+      <div className="BoxContainer">
+        {boxes}
+      </div>
+    )
   }
 }
 
