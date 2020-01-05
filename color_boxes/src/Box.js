@@ -8,9 +8,11 @@ class Box extends Component {
 
   render() {
     return (
-      <div>
-
-      </div>
+      <div
+        className="Box"
+        style={{ backgroundColor: this.state.color }}
+        onClick={this.handleClick}
+      />
     )
   }
 }
