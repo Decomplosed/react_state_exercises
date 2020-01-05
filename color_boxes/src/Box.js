@@ -2,6 +2,14 @@ import React, { Component } from 'react'
 import './Box.css'
 
 class Box extends Component {
+  static deafultProps = {
+    allColors: [
+      'purple',
+      'magneta',
+      'lilac',
+      'pink'
+    ]
+  }
   constructor(props) {
     super(props)
     this.state = { color: 'purple' }
